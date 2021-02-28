@@ -1,0 +1,11 @@
+{
+    "Post":{
+        "title":"string",
+        "views":"int",
+        "comments":"Comment[]"
+    },
+    "Comment":{
+        "body":"string",
+        "post":"Post"
+    }
+}
